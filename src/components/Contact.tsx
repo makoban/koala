@@ -6,11 +6,11 @@ const Contact = () => {
       <div className="container">
         <div className="contact-card bg-glass animate-on-scroll">
           <div className="contact-content text-center">
-            <h2 className="section-title">
+            <h2 className="section-title keep-breaks-mobile" style={{ fontSize: 'clamp(1.5rem, 5vw, 3rem)' }}>
               新しいAI事業を、<br />
               <span className="text-gradient">圧倒的なフットワークで形にしませんか？</span>
             </h2>
-            <p className="contact-desc">
+            <p className="contact-desc keep-breaks-mobile" style={{ fontSize: 'clamp(0.9rem, 3.5vw, 1.25rem)' }}>
               「AIで何かを作りたい」という最初の一歩から、私たちが完全無料で伴走します。<br />
               まずはお気軽にご相談ください。
             </p>

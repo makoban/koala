@@ -56,12 +56,13 @@ const Services = () => {
     <section className="services-section" id="services">
       <div className="container">
         <div className="section-header text-center">
-          <h2 className="section-title">
+          <h2 className="section-title keep-breaks-mobile" style={{ fontSize: 'clamp(1.5rem, 5vw, 3rem)' }}>
             圧倒的効率化を実現する<br />
             <span className="text-gradient">AIソリューション</span>
           </h2>
-          <p className="section-subtitle">
-            業務効率化、自動投稿、事業立ち上げから商圏分析まで。私たちが提供・駆使する強力なAIツール群。
+          <p className="section-subtitle keep-breaks-mobile" style={{ fontSize: 'clamp(0.9rem, 3.5vw, 1.25rem)' }}>
+            業務効率化、自動投稿、事業立ち上げから商圏分析まで。<br />
+            私たちが提供・駆使する強力なAIツール群。
           </p>
         </div>
 

@@ -30,11 +30,12 @@ const Workflow = () => {
     <section className="workflow-section" id="workflow">
       <div className="container">
         <div className="section-header text-center animate-fade-in">
-          <h2 className="section-title">
+          <h2 className="section-title keep-breaks-mobile" style={{ fontSize: 'clamp(2rem, 6vw, 3rem)' }}>
             <span className="text-gradient">お仕事の流れ</span>
           </h2>
-          <p className="section-subtitle">
-            完全無料で伴走し、圧倒的スピードで形にするまでの4ステップ
+          <p className="section-subtitle keep-breaks-mobile" style={{ fontSize: 'clamp(0.95rem, 3.5vw, 1.25rem)' }}>
+            完全無料で伴走し、<br />
+            圧倒的スピードで形にするまでの4ステップ
           </p>
         </div>
 
