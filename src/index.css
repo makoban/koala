@@ -298,6 +298,19 @@ button {
   margin-right: auto;
 }
 
+@media (max-width: 768px) {
+  .hero-title span {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 6vw;
+  }
+  .hero-subtitle {
+    font-size: 4vw;
+    line-height: 2;
+    white-space: nowrap;
+  }
+}
+
 .hero-actions {
   display: flex;
   align-items: center;

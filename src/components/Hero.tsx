@@ -25,12 +25,12 @@ const Hero = () => {
           </h1>
           
           <p className="hero-subtitle animate-fade-in delay-300">
-            我々はAI社員を24時間使い、<br className="mobile-break" />
-            驚異的なスピードであなたの会社の<br className="desktop-break" />
-            新商材、新サービス、AI業務改善を<br className="mobile-break" />
-            作ることが出来る。<br className="desktop-break" />
+            我々はAI社員を24時間使い、<br />
+            驚異的なスピードであなたの会社の<br />
+            新商材、新サービス、AI業務改善を<br />
+            作ることが出来る。<br />
             <br />
-            AI社員は我々が対応するので<br className="mobile-break" />
+            AI社員は我々が対応するので<br />
             まったく難しい知識は不要です。
           </p>
           
