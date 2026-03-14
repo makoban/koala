@@ -14,7 +14,16 @@ const Hero = () => {
             <div className="mascot-logo-wrapper">
               <img src="/images/mascot-logo.png" alt="koala Mascot" className="mascot-logo" />
               <div className="text-triple-outline">
-                team koala
+                <span className="rainbow-t">t</span>
+                <span className="rainbow-e">e</span>
+                <span className="rainbow-a">a</span>
+                <span className="rainbow-m">m</span>
+                &nbsp;
+                <span className="rainbow-k">k</span>
+                <span className="rainbow-o">o</span>
+                <span className="rainbow-a2">a</span>
+                <span className="rainbow-l">l</span>
+                <span className="rainbow-a3">a</span>
               </div>
             </div>
           </div>

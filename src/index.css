@@ -118,13 +118,22 @@ button {
 .delay-300 { animation-delay: 0.3s; }
 .delay-400 { animation-delay: 0.4s; }
 
-/* Responsive utility classes for line breaks */
+/* Responsive utility classes */
 .mobile-break { display: none; }
 .desktop-break { display: block; }
+.keep-breaks-mobile { white-space: normal; } /* Default */
 
 @media (max-width: 768px) {
   .mobile-break { display: block; }
   .desktop-break { display: none; }
+  
+  /* Force exact line breaks and scale text proportionally on mobile */
+  .keep-breaks-mobile {
+    display: inline-block;
+    white-space: nowrap !important;
+    text-align: center;
+    width: 100%;
+  }
 }
 
 /* Components: Badge */
@@ -255,6 +264,17 @@ button {
   transform: rotate(-2deg); /* cute tilted angle */
   margin-bottom: 2rem;
 }
+
+/* Rainbow Text Colors for "team koala" */
+.rainbow-t { color: #ff5252; text-shadow: -2px -2px 0 #2D3748, 2px -2px 0 #2D3748, -2px 2px 0 #2D3748, 2px 2px 0 #2D3748, -5px -5px 0 #FFFFFF, 5px -5px 0 #FFFFFF, -5px 5px 0 #FFFFFF, 5px 5px 0 #FFFFFF, -8px -8px 0 var(--accent-primary), 8px -8px 0 var(--accent-primary), -8px 8px 0 var(--accent-primary), 8px 8px 0 var(--accent-primary), 0 15px 25px rgba(255,107,107,0.3); }
+.rainbow-e { color: #ff9f43; text-shadow: -2px -2px 0 #2D3748, 2px -2px 0 #2D3748, -2px 2px 0 #2D3748, 2px 2px 0 #2D3748, -5px -5px 0 #FFFFFF, 5px -5px 0 #FFFFFF, -5px 5px 0 #FFFFFF, 5px 5px 0 #FFFFFF, -8px -8px 0 var(--accent-primary), 8px -8px 0 var(--accent-primary), -8px 8px 0 var(--accent-primary), 8px 8px 0 var(--accent-primary), 0 15px 25px rgba(255,107,107,0.3); }
+.rainbow-a { color: #feca57; text-shadow: -2px -2px 0 #2D3748, 2px -2px 0 #2D3748, -2px 2px 0 #2D3748, 2px 2px 0 #2D3748, -5px -5px 0 #FFFFFF, 5px -5px 0 #FFFFFF, -5px 5px 0 #FFFFFF, 5px 5px 0 #FFFFFF, -8px -8px 0 var(--accent-primary), 8px -8px 0 var(--accent-primary), -8px 8px 0 var(--accent-primary), 8px 8px 0 var(--accent-primary), 0 15px 25px rgba(255,107,107,0.3); }
+.rainbow-m { color: #1dd1a1; text-shadow: -2px -2px 0 #2D3748, 2px -2px 0 #2D3748, -2px 2px 0 #2D3748, 2px 2px 0 #2D3748, -5px -5px 0 #FFFFFF, 5px -5px 0 #FFFFFF, -5px 5px 0 #FFFFFF, 5px 5px 0 #FFFFFF, -8px -8px 0 var(--accent-primary), 8px -8px 0 var(--accent-primary), -8px 8px 0 var(--accent-primary), 8px 8px 0 var(--accent-primary), 0 15px 25px rgba(255,107,107,0.3); }
+.rainbow-k { color: #54a0ff; text-shadow: -2px -2px 0 #2D3748, 2px -2px 0 #2D3748, -2px 2px 0 #2D3748, 2px 2px 0 #2D3748, -5px -5px 0 #FFFFFF, 5px -5px 0 #FFFFFF, -5px 5px 0 #FFFFFF, 5px 5px 0 #FFFFFF, -8px -8px 0 var(--accent-primary), 8px -8px 0 var(--accent-primary), -8px 8px 0 var(--accent-primary), 8px 8px 0 var(--accent-primary), 0 15px 25px rgba(255,107,107,0.3); }
+.rainbow-o { color: #5f27cd; text-shadow: -2px -2px 0 #2D3748, 2px -2px 0 #2D3748, -2px 2px 0 #2D3748, 2px 2px 0 #2D3748, -5px -5px 0 #FFFFFF, 5px -5px 0 #FFFFFF, -5px 5px 0 #FFFFFF, 5px 5px 0 #FFFFFF, -8px -8px 0 var(--accent-primary), 8px -8px 0 var(--accent-primary), -8px 8px 0 var(--accent-primary), 8px 8px 0 var(--accent-primary), 0 15px 25px rgba(255,107,107,0.3); }
+.rainbow-a2 { color: #ee5253; text-shadow: -2px -2px 0 #2D3748, 2px -2px 0 #2D3748, -2px 2px 0 #2D3748, 2px 2px 0 #2D3748, -5px -5px 0 #FFFFFF, 5px -5px 0 #FFFFFF, -5px 5px 0 #FFFFFF, 5px 5px 0 #FFFFFF, -8px -8px 0 var(--accent-primary), 8px -8px 0 var(--accent-primary), -8px 8px 0 var(--accent-primary), 8px 8px 0 var(--accent-primary), 0 15px 25px rgba(255,107,107,0.3); }
+.rainbow-l { color: #ff9f43; text-shadow: -2px -2px 0 #2D3748, 2px -2px 0 #2D3748, -2px 2px 0 #2D3748, 2px 2px 0 #2D3748, -5px -5px 0 #FFFFFF, 5px -5px 0 #FFFFFF, -5px 5px 0 #FFFFFF, 5px 5px 0 #FFFFFF, -8px -8px 0 var(--accent-primary), 8px -8px 0 var(--accent-primary), -8px 8px 0 var(--accent-primary), 8px 8px 0 var(--accent-primary), 0 15px 25px rgba(255,107,107,0.3); }
+.rainbow-a3 { color: #48dbfb; text-shadow: -2px -2px 0 #2D3748, 2px -2px 0 #2D3748, -2px 2px 0 #2D3748, 2px 2px 0 #2D3748, -5px -5px 0 #FFFFFF, 5px -5px 0 #FFFFFF, -5px 5px 0 #FFFFFF, 5px 5px 0 #FFFFFF, -8px -8px 0 var(--accent-primary), 8px -8px 0 var(--accent-primary), -8px 8px 0 var(--accent-primary), 8px 8px 0 var(--accent-primary), 0 15px 25px rgba(255,107,107,0.3); }
 
 .text-double-outline {
   font-family: var(--font-sans);
