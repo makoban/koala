@@ -75,7 +75,10 @@ const Team = () => {
       <div className="container">
         <div className="section-header text-center animate-fade-in">
           <h2 className="section-title keep-breaks-mobile" style={{ fontSize: 'clamp(2rem, 6vw, 3rem)' }}>Team members</h2>
-          <p className="section-subtitle keep-breaks-mobile" style={{ fontSize: 'clamp(0.95rem, 3.5vw, 1.25rem)' }}>エンタメのプロと、<br />24時間働くAIスペシャリストたち</p>
+          <p className="section-subtitle text-center" style={{ lineHeight: '1.8' }}>
+            エンタメプロデューサーと、<br className="mobile-break" />
+            24時間働くAIスペシャリスト
+          </p>
         </div>
 
         <div className="team-category mb-12">

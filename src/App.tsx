@@ -3,6 +3,7 @@ import Team from './components/Team';
 import Services from './components/Services';
 import Features from './components/Features';
 import Workflow from './components/Workflow';
+import Pricing from './components/Pricing';
 import Contact from './components/Contact';
 
 function App() {
@@ -11,8 +12,9 @@ function App() {
       <Hero />
       <Team />
       <Features />
-      <Workflow />
       <Services />
+      <Pricing />
+      <Workflow />
       <Contact />
     </div>
   );

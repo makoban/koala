@@ -33,9 +33,9 @@ const Workflow = () => {
           <h2 className="section-title keep-breaks-mobile" style={{ fontSize: 'clamp(2rem, 6vw, 3rem)' }}>
             <span className="text-gradient">お仕事の流れ</span>
           </h2>
-          <p className="section-subtitle keep-breaks-mobile" style={{ fontSize: 'clamp(0.95rem, 3.5vw, 1.25rem)' }}>
-            完全無料で伴走し、<br />
-            圧倒的スピードで形にするまでの4ステップ
+          <p className="section-subtitle text-center" style={{ lineHeight: '1.8' }}>
+            完全無料で伴走しながら、<br className="mobile-break" />
+            形にするまでの4ステップ
           </p>
         </div>
 
